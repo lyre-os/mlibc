@@ -14,8 +14,8 @@
 uintptr_t libraryBase = 0x41000000;
 
 constexpr bool verbose = false;
-constexpr bool stillSlightlyVerbose = false;
-constexpr bool logBaseAddresses = false;
+constexpr bool stillSlightlyVerbose = true;
+constexpr bool logBaseAddresses = true;
 constexpr bool logRpath = false;
 constexpr bool eagerBinding = true;
 
